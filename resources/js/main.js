@@ -84,7 +84,7 @@ $(document).ready(function() {
 });
 
 document
-  .querySelector("contact-form")
+  .querySelector(".contact-form")
   .addEventListener("submit", handleSubmit);
 
 const handleSubmit = (e) => {
